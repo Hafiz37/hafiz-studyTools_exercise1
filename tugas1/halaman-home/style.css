@@ -1,0 +1,67 @@
+/* semua */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* navbar */
+nav{
+    height: 50px;
+}
+
+.navigasi{
+    float: right;
+    margin: 12px 56px 0 0;
+    display: flex;
+    list-style: none;
+}
+
+.navigasi a{
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform: lowercase;
+}
+
+.navigasi a:hover{
+    font-size: 14px;
+    border-bottom: 3px solid blue;
+}
+/* selesai navbar */
+
+
+
+#saya{
+    display: inline-block;
+    margin: 200px 0 0 100px;
+}
+
+/* nama */
+.myName{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.perkenalan p{
+    font-size: 16px;
+    margin: -16px 0 10px 0;
+}
+
+/* logo medsos */
+.medsos a img{
+    width: 25px;
+}
+
+.medsos a.wa img{
+    width: 37px;
+    margin-left: -5px;
+}
+
+img.profil{
+    width: 340px;
+    float: right;
+    margin: -320px -8px 0 0;
+}
+

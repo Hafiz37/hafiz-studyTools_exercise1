@@ -1,0 +1,56 @@
+/* semua */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* navbar */
+
+.navigasi{
+    float: right;
+    margin: 12px 56px 0 0;
+    display: flex;
+    list-style: none;
+}
+
+.navigasi a{
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform: lowercase;
+}
+
+.navigasi a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-bottom: 3px solid blue;
+}
+/* selesai navbar */
+
+h2{
+    margin:100px 0 50px 190px;
+}
+
+
+/* table */
+table{
+    margin: 0 auto 20px auto;
+}
+
+
+/* gambar */
+table tr.hoby1 td img{
+    width: 120px;
+    padding-left: 160px;
+}
+
+table tr.hoby2 td img{
+    width: 135px;
+    float: right;
+    padding-right: 160px;
+}
+
+ /* li{
+     margin-top: -100px;
+ } */
