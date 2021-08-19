@@ -59,9 +59,84 @@ nav{
     margin-left: -5px;
 }
 
-img.profil{
+img.profil1{
     width: 340px;
     float: right;
     margin: -320px -8px 0 0;
 }
 
+img.profil2{
+    display: none;
+}
+
+
+
+/* responsive break point */
+
+@media (max-width:768px){
+    img.profil1{
+        display: none;
+    }
+
+    img.profil2{
+        display: block;
+        width: 160px;
+        border-radius: 10px;
+        float: right;
+        /* margin: 30px auto 0 auto; */
+        border: 5px solid blue;
+        padding: 5px;
+        margin: 50px 20px 0 0;
+    }
+
+    #saya{
+        margin: 60px 0 0 20px;
+    }
+
+    .myName{
+        font-size: 28px;
+    }
+
+    .perkenalan p{
+        font-size: 14px;
+        margin: 10px 0;
+        width: 330px;
+    }
+
+    .medsos{
+        margin-top: 25px;
+    }
+
+
+
+
+
+}
+@media (max-width:600px){
+
+    *{
+        text-align: center;
+    }
+
+    img.profil2{
+        display: flex;
+        /* justify-content: center; */
+        width: 150px;
+        border-radius: 100%;
+        margin: 30px 32% 0 auto;
+        border: 5px solid blue;
+    }
+
+    .perkenalan p{
+        width: inherit;
+    }
+    
+    .medsos a img{
+        margin: 0 10px;
+    }
+
+
+    .medsos a.wa img {
+        margin-left: 0px;
+    }
+}
