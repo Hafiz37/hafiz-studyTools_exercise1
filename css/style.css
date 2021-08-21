@@ -272,7 +272,7 @@ footer ul li a:hover{
         border-radius: 10px;
         float: right;
         /* margin: 30px auto 0 auto; */
-        border: 5px solid #1b9bff;
+        border: 2px solid #1b9bff;
         padding: 5px;
         margin: 50px 20px 0 0;
     }
@@ -345,7 +345,7 @@ footer ul li a:hover{
         width: 150px;
         border-radius: 100%;
         margin: 30px 32% 0 auto;
-        border: 5px solid #1b9bff;
+        border: 2px solid #1b9bff;
         padding: 5px;
     }
 
