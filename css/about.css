@@ -56,6 +56,8 @@
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
   }
   nav ul{
     float: right;
@@ -76,7 +78,8 @@
   }
   a.active,a:hover{
     background: #1b9bff;
-    transition: .10s;
+    transition: 0.4s;
+    color: white;
   }
   .checkbtn{
     font-size: 30px;

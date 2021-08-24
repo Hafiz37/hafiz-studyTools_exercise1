@@ -27,7 +27,8 @@ label.logo{
   font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
-  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2px;
 }
 nav ul{
   float: right;
@@ -48,8 +49,8 @@ nav ul li a{
 }
 nav a.active,nav a:hover{
   background: #1b9bff;
-  color: black;
-  transition: .10s;
+  color: white;
+  transition: 0.4s;
 }
  .checkbtn{
   font-size: 30px;
